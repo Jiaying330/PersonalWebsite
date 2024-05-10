@@ -1,0 +1,50 @@
+.resume > .container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.resume {
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.grid-cell {
+    line-height: 1.7;
+    letter-spacing: 1.2;
+}
+
+.resume.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    gap: 40px;
+}
+.resume.grid-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom:40px;
+    padding-top:40px;
+    border-top: solid #EADBC8;
+}
+.resume.grid-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.resume.grid-right > .grid-cell {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+.grid-cell div h3 {
+    color: rgb(51, 51, 51);
+}
+.grid-cell div p {
+    margin-top: 10px;
+}
+
