@@ -1,0 +1,61 @@
+.profile-image {
+    border-radius: 50%;
+    width: 450px;
+}
+
+.home > .flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 90vh;
+}
+
+.home > .flex-container > .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+div.profile-image {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+} 
+
+.home > .flex-container .greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-size: 70px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+} 
+.intro {
+    width: 450px;
+    line-height: 1.7;
+}
+
+.home > .flex-container .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home > .flex-container > .grid-container .nav-buttons div{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: #F3D0D7;
+}
+
+.home > .flex-container > .grid-container .nav-buttons div:hover {
+    background-color: #f3dce0;
+}
