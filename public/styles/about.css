@@ -1,0 +1,21 @@
+.about.container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.about {
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.about.grid-container {
+    display: grid;
+    width: 75%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    line-height: 1.7;
+    letter-spacing: 1.2;
+}

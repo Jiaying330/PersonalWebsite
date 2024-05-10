@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./public/styles/index.css">
-    <link rel="stylesheet" href="./public/styles/home.css">
+    <link rel="stylesheet" href="../styles/index.css">  
+    <link rel="stylesheet" href="../styles/about.css">      
     <title>Jiaying's Website</title>
 </head>
 <body>
     <header class="navbar">
         <div class="flex-container">
             <div class="nav-left">
-                <a href="index.html">
-                   <div class="nav-item name active">
+                <a href="../../index.html">
+                   <div class="nav-item name">
                         Jiaying Hou
                     </div> 
                 </a>
@@ -24,21 +23,20 @@
                 </div>
             </div>
             <div class="nav-right">
-                <!-- <div class="nav-right"> -->
-                    <a href="public/pages/about.html">
-                        <div class="nav-item">
-                            About
-                        </div> 
-                    </a>
-                    <hr>
-                <a href="public/pages/resume.html">
-                    <div class="about nav-item">
+                <a>
+                    <div class="nav-item active">
+                        About
+                    </div> 
+                </a>
+                <hr>
+                <a href="./resume.html">
+                    <div class="nav-item">
                         Resume
                     </div>
                 </a>
                 <hr>
-                <a href="public/pages/projects.html">
-                    <div class="projects nav-item">
+                <a href="./projects.html">
+                    <div class="nav-item">
                     Projects
                     </div>
                 </a>
@@ -46,46 +44,50 @@
         </div>
     </header>
 
-    <section class="home">
-        <div class="flex-container">
-            <div class="grid-container">
-                <div class="profile-image">
-                   <img class="profile-image" src="public/images/picture.png"> 
-                </div>
-                <div class="greeting">
-                    <h1>
-                        Hello!
+    <section>
+        <div class="about container">
+            <div class= "about grid-container">
+                <div>
+                    <h1 class="about">
+                        About Me
                     </h1>
-                </div>
-                <div class="intro">
-                    <h3>
-                        A Bit About Me
-                    </h3>
                     <p>
-                        I am a tech enthusiast with a background in game design and 
-                        development, now mastering web development and exploring 
-                        machine learning. Join me at the intersection of technology, 
-                        creativity, and innovation!
+                        Welcome to my corner of the internet! I'm Jiaying, a passionate individual with 
+                        a love for technology, creativity, and problem-solving. As an avid enthusiast of video 
+                        games, I've spent countless hours exploring virtual worlds and honing my skills in 
+                        game development and programming. What started as a casual hobby quickly evolved into a 
+                        deep-seated passion, driving me to learn the ins and outs of game design and programming 
+                        languages.
+
+                        <br><br>
+
+                        However, my journey took an unexpected turn when I discovered the dynamic world of web 
+                        development. Captivated by the endless possibilities and the ability to create interactive 
+                        and user-friendly experiences on the web, I decided to pivot my focus and dive headfirst into 
+                        this exciting field. Since then, I've been on a mission to master the art of web development 
+                        and leverage my skills to craft immersive online experiences.
+                        <br><br>
+                        Additionally, I've delved deeply into the fascinating realm of machine learning, immersing 
+                        myself in its intricate algorithms, diverse applications, and limitless potential to 
+                        revolutionize the way we interact with technology. From natural language processing to computer 
+                        vision, I've explored the vast landscape of machine learning, constantly seeking out new 
+                        challenges and opportunities to push the boundaries of innovation.
+                        <br><br>
+                        When I'm not busy coding or designing, you can find me hitting the gym and indulging in my passion 
+                        for weightlifting, challenging myself physically and mentally. I also enjoy diving into thought-
+                        provoking books about philosophy and psychology, immersing myself in different perspectives and ideas. 
+                        I believe in lifelong learning and continually seek out new challenges to expand my horizons, both in 
+                        my professional and personal pursuits.
+                        <br><br>
+                        Join me on this journey as I share insights, projects, and musings on technology, creativity, 
+                        and everything in between. I am eager to put my unique blend of skills and expertise in practice, 
+                        where I can contribute to impactful projects and collaborate with like-minded individuals.
+                        Let's connect and embark on this adventure together!
                     </p>
                 </div>
-                <div class="nav-buttons">
-                    <a href="public/pages/about.html">
-                        <div>
-                            <h3>About</h3>
-                        </div>
-                    </a>
-                    <a href="public/pages/resume.html">
-                        <div>
-                            <h3>Resume</h3>
-                        </div>
-                    </a>
-                    <a href="public/pages/projects.html">
-                        <div>
-                            <h3>Project</h3>
-                        </div>
-                    </a>
+                <div>
+
                 </div>
-                
             </div>
         </div>
     </section>
