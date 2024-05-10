@@ -10,7 +10,6 @@ a {
     color: inherit
 }
 .navbar > .flex-container {
-    /* background-color: blueviolet; */
     height: 80px;
     display: flex;
     justify-content: space-between; 
@@ -26,7 +25,6 @@ a {
 }
 .nav-item {
     padding: 15px;
-    /* padding-top: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +53,6 @@ h1, h2, h3, p, h4{
 .footer {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 footer .flex-container {
@@ -65,7 +62,6 @@ footer .flex-container {
     align-items: center;
     width: 85%;
     height: 150px;
-    /* background-color: brown; */
     border-top: solid #e6e0d7;
 }
 footer .flex-container div h3 {

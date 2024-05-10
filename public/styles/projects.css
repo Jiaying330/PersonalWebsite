@@ -1,0 +1,78 @@
+.projects > .container{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.projects {
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+ .projects.flex-container {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+ }
+
+ .grid-left{
+    line-height: 1.7;
+    letter-spacing: 1.2;
+ }
+
+ .grid-left p {
+    margin-top: 10px;
+ }
+
+ .project.grid-container {
+     display: grid;
+     width: 100%;
+     grid-template-rows: 1fr;
+     grid-template-columns: 1fr 1fr;
+     gap: 60px;
+     margin-bottom: 70px;
+ }
+ 
+.project.right-flex-cell {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    
+}
+.project.img-container {
+    position: relative;
+}
+img.project {
+     width: 450px;
+     height: 300px;
+     object-fit: cover;
+     /* float: right; */
+     opacity: 0.8;
+} 
+.project.link {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    opacity: 0;
+}
+
+.img-container:hover img{
+     opacity: 0.2;
+}
+
+.img-container:hover .project.link{
+    opacity: 1;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.project.link:hover {
+    color: #dfc7a4;
+}
+/* a.project:hover {
+
+} */
